@@ -13,7 +13,7 @@
 # the Free Software Foundation.
 #
 
-class tftp {
+class tftpd {
   package{'tftp-server':
     ensure => present,
   }
